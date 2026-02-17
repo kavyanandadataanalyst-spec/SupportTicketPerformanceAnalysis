@@ -1,0 +1,113 @@
+# 📚 Case Studies
+
+
+## Case Study 1: Critical SLA Breach Investigation
+
+###  Business Problem
+The support team was experiencing customer dissatisfaction due to delayed ticket resolutions, but the exact scale and pattern of SLA failures was unclear.
+
+###  Approach
+- Created SLA status logic using turnaround time threshold (8 hours).
+- Built pivot views by agent, issue type, and region.
+- Developed KPI cards to monitor breach percentage.
+- Applied conditional formatting to visually flag risks.
+
+###  Key Findings
+- Overall SLA breach rate is **82.38%**, indicating systemic delay.
+- All regions and issue types show consistently poor SLA performance.
+- Majority of tickets fall in **5–12 hours and beyond**, exceeding targets.
+
+###  Business Impact
+- Identified SLA risk as **process-wide**, not team-specific.
+- Enabled leadership to prioritize workflow optimization.
+- Highlighted need for proactive SLA monitoring.
+
+### Recommendations
+- Implement real-time SLA alert system.
+- Introduce priority-based ticket routing.
+- Review staffing and queue management.
+
+---
+
+##  Case Study 2: Resolution Time Bottleneck Analysis
+
+### Business Problem
+Management needed to understand which ticket categories were driving longer resolution times.
+
+### Approach
+- Created resolution time buckets using IFS logic.
+- Built issue-type level pivots.
+- Compared average resolution times across categories.
+
+### Key Findings
+- **Login Issues (~21 hrs)** and **Password Reset (~20 hrs)** have the highest resolution times.
+- Authentication-related tickets form a major portion of workload.
+- Simpler issues (Bug Report, Email Issue) resolve significantly faster.
+
+### Business Impact
+- Revealed authentication workflow as primary bottleneck.
+- Provided direction for process automation opportunities.
+- Helped prioritize high-impact improvement areas.
+
+### Recommendations
+- Automate password reset workflows.
+- Create self-service authentication tools.
+- Develop dedicated queue for login-related issues.
+
+---
+
+##  Case Study 3: Agent Workload & Productivity Analysis
+
+###  Business Problem
+Ticket distribution and agent productivity levels were not clearly visible, making resource planning difficult.
+
+###  Approach
+- Built agent-wise pivot tables.
+- Compared resolved vs open workload.
+- Analyzed regional distribution by agent.
+
+### Key Findings
+- **Agent C** handled the highest volume (~175 tickets).
+- **Agent E** has the lowest workload (~136 tickets).
+- Ticket distribution shows mild imbalance across agents.
+- Open ticket backlog stands at **~30%**.
+
+###  Business Impact
+- Identified opportunity for workload rebalancing.
+- Highlighted potential skill gaps.
+- Improved visibility into team performance.
+
+###  Recommendations
+- Rebalance ticket allocation across agents.
+- Upskill lower-volume agents.
+- Implement performance-based routing.
+
+---
+
+## Case Study 4: Global Demand Pattern Analysis
+
+### Business Problem
+Leadership wanted to know whether ticket demand was driven by specific regions.
+
+### Approach
+- Built region-wise pivots.
+- Compared issue distribution across geographies.
+- Analyzed regional SLA patterns.
+
+### Key Findings
+- Americas contribute **~53% of total tickets**.
+- North America is the single largest contributor.
+- Issue mix is **consistent globally**.
+- SLA underperformance is uniform across regions.
+
+### Business Impact
+- Confirmed demand is globally distributed.
+- Ruled out region-specific process issues.
+- Enabled globally standardized improvement strategy.
+
+### Recommendations
+- Maintain global support model.
+- Focus on process improvements rather than regional changes.
+- Monitor Americas for future capacity planning.
+
+---
